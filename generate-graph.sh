@@ -11,7 +11,10 @@ for id in `ls data/nodes` ; do
     if [ "$id" = "root" ] ; then continue ; fi
     depth=$(cat data/nodes/$id/depth)
     depth=$((2*$depth + 0))
+    # does not work on Safari iOS
     echo "nodes.push({ id: $id, label: \"\", level: $depth, group: \"node\", image: \"images/logo.png\" });" >> $js
+
+    #echo "nodes.push({ id: $id, label: \"\", level: $depth, group: \"node\" });" >> $js
 done
 
 for id in `ls data/processed` ; do
@@ -20,7 +23,7 @@ for id in `ls data/processed` ; do
     username=$(cat data/processed/$id/username)
     #cmd=$(cat data/processed/$id/cmd.txt | tr -d '\n')
     #echo "nodes.push({ id: $id, label: \"$username\", title: \"$cmd\", level: $depth, group: \"command\", font: { face: \"Liberation Mono\", size: 12 }});" >> $js
-    echo "nodes.push({ id: $id, label: \"$username\", level: $depth, group: \"command\", font: { face: \"Liberation Mono\", size: 12 }});" >> $js
+    echo "nodes.push({ id: $id, label: \"$username\", level: $depth, group: \"command\", font: { face: \"Liberation Mono\", size: 12 } });" >> $js
 done
 
 echo "" >> $js
