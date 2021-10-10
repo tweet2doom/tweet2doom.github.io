@@ -1,0 +1,3 @@
+@tweet2doom - Restart the game
+
+/play x,10-,e,10-,e,10-,e,50-,50-u,35-,

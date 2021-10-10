@@ -1,0 +1,3 @@
+@tweet2doom - Switch graphics detail
+
+/play x,15-,d,15-,e,35-,d,10-,d,70-,e,70-,x,70-,

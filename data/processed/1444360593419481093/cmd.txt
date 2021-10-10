@@ -1,0 +1,5 @@
+@tweet2doom - Turn left
+- Switch to punches
+- Punch the barrel
+                                              
+/play 15-l,24-U,1,1,1,1,1,20-f,5-fu,99-f,99-f,

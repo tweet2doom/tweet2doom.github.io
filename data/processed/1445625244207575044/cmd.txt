@@ -1,0 +1,3 @@
+@tweet2doom Ok, I think spaces within the command should now be properly supported. For example:
+
+/play 30-U, 20-r, p , 20- , 10-U, 10-fl, 10-fr, 10-fl, 10-fr, 10-fl, 10-fr, 10-fl, 10-fr

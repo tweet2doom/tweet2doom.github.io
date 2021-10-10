@@ -1,0 +1,3 @@
+@tweet2doom Also adding 18 frames freeze at the end of the videos to try to deal with the video auto replay:
+
+/play 10-fl,10-fr,

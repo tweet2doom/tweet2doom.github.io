@@ -1,0 +1,14 @@
+,#@Cyanbane#x,,,,,,,,,,,e,,,,,,,,,,,e,,,,,,,,,,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@Cyanbane#<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,<f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@Cyanbane#l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#r,r,r,r,r,r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#l,l,l,l,l,l,l,l,l,l,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Cyanbane#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@Cyanbane#l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l
+,#@ggerganov#l,l,l,l,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,<,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@ggerganov#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,p,,,,,,,,,,,,,,,,,,,,,su,su,su,su,su,su,su,su,su,su,fl,fl,fl,fl,fl,fl,fl,fl,fl,fl,fr,fr,fr,fr,fr,fr,fr,fr,fr,fr,fl,fl,fl,fl,fl,fl,fl,fl,fl,fl,fr,fr,fr,fr,fr,fr,fr,fr,fr,fr,fl,fl,fl,fl,fl,fl,fl,fl,fl,fl,fr,fr,fr,fr,fr,fr,fr,fr,fr,fr,fl,fl,fl,fl,fl,fl,fl,fl,fl,fl,fr,fr,fr,fr,fr,fr,fr,fr,fr,fr
+,#@ggerganov#fl,fl,fl,fl,fl,fl,fl,fl,fl,fl,fr,fr,fr,fr,fr,fr,fr,fr,fr,fr
+,#@rgerganov#su,su,su,su,su,su,su,su,su,su,su,su,fl,fl,fl,fr,fr,fr

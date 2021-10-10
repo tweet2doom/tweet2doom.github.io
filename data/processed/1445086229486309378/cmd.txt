@@ -1,0 +1,3 @@
+@tweet2doom @EQMacMGBs oops typo
+
+/play 5-u,50-s&lt;,2-u,10-s&gt;,2-u,10-s&lt;,20-R

@@ -1,0 +1,3 @@
+@tweet2doom - Quick rotate 360 while shooting
+
+/play 55-Lf,55-Rf,35-,

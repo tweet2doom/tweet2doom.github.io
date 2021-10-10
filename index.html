@@ -1,1 +1,108 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tweet2Doom: State tree</title>
+
+        <style type="text/css">
+            html,
+            body,
+            #mynetwork {
+                margin: 0px;
+                padding: 0px;
+                color: #00ba7c;
+                font: 12pt arial;
+                background-color: #15202b;
+            }
+
+            #mynetwork {
+                position: fixed;
+                left: 0px;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                min-height: 100vh;
+                border-right: 1px solid lightgray;
+            }
+
+            #title {
+                margin-bottom: 5em;
+            }
+        </style>
+
+        <script type="text/javascript" src="js/graph.js"></script>
+        <script type="text/javascript" src="js/vis-network.min.js"></script>
+    </head>
+
+    <body onload="draw();">
+        <div id="mynetwork"></div>
+        <script type="text/javascript">
+            var nodes = [];
+            var edges = [];
+            var network = null;
+
+            function draw() {
+                // clean up old network
+                if (network != null) {
+                    network.destroy();
+                    network = null;
+                }
+
+                // create a network
+                var container = document.getElementById("mynetwork");
+
+                graph_create();
+
+                var data = { nodes, edges };
+                var options = {
+                    layout: {
+                        hierarchical: {
+                            direction: "UD",
+                            sortMethod: "directed",
+                            nodeSpacing: 140,
+                            edgeMinimization: true,
+                            parentCentralization: true,
+                        },
+                    },
+                    nodes: {
+                        shape: "dot",
+                        size: 20,
+                        font: {
+                            size: 15,
+                            color: "#ffffff",
+                        },
+                        borderWidth: 2,
+                    },
+                    interaction: {
+                        hover: true,
+                        selectable: false,
+                        dragNodes: false,
+                    },
+                    physics: false,
+                    groups: {
+                        node: {
+                            shape: "circularImage",
+                        },
+                        command: {
+                            label: "I'm a dot!",
+                            shape: "box",
+                            color: "#1da1f2",
+                        },
+                    },
+                };
+                network = new vis.Network(container, data, options);
+
+                network.focus(1444355917160534024,
+                              {
+                                  scale: 1.0,
+                                  animation: true,
+                              });
+
+                // add event listeners
+                network.on("select", function (params) {
+                    document.getElementById("selection").innerText =
+                        "Selection: " + params.nodes;
+                });
+            }
+        </script>
+    </body>
+</html>

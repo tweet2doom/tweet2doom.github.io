@@ -1,0 +1,1 @@
+@tweet2doom @ggerganov /play 2-lf,f,f,16-,

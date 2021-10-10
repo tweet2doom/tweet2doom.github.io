@@ -1,0 +1,1 @@
+@tweet2doom @ggerganov /play 30-R, 23-U,p, 25-r, 20-u

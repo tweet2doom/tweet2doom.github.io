@@ -1,0 +1,3 @@
+@tweet2doom The original command should be displayed in the reply now:
+
+/play 8-l, 10-u,35-f,
