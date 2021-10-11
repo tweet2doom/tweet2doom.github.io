@@ -1,6 +1,6 @@
 #!/bin/bash
 
-src="../tweet2doom-data"
+src="../tweet2doom"
 
 rsync -rtvum --include='*parent_id'     --include='*/' --exclude='*' $src/processed/ data/processed/
 rsync -rtvum --include='*depth'         --include='*/' --exclude='*' $src/processed/ data/processed/
