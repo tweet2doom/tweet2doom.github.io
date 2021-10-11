@@ -1,0 +1,1 @@
+@tweet2doom /play 20-u, 10-r, 30-Uar&gt;, 15-r, 90-Uar&gt;, 30-Uar&gt;,10-r,5-p, 20-r, 90-Ual&lt;, 10-l, 5-p
