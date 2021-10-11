@@ -6,7 +6,7 @@
         <style type="text/css">
             html,
             body,
-            #mynetwork {
+            #t2dnet {
                 margin: 0px;
                 padding: 0px;
                 color: #00ba7c;
@@ -14,7 +14,7 @@
                 background-color: #15202b;
             }
 
-            #mynetwork {
+            #t2dnet {
                 position: fixed;
                 left: 0px;
                 top: 0px;
@@ -34,7 +34,7 @@
     </head>
 
     <body onload="draw();">
-        <div id="mynetwork"></div>
+        <div id="t2dnet"></div>
         <script type="text/javascript">
             var nodes = [];
             var edges = [];
@@ -48,7 +48,7 @@
                 }
 
                 // create a network
-                var container = document.getElementById("mynetwork");
+                var container = document.getElementById("t2dnet");
 
                 graph_create();
 
@@ -74,8 +74,9 @@
                     },
                     interaction: {
                         hover: true,
-                        selectable: false,
+                        selectable: true,
                         dragNodes: false,
+                        multiselect: false,
                     },
                     physics: false,
                     groups: {
@@ -91,16 +92,22 @@
                 };
                 network = new vis.Network(container, data, options);
 
-                network.focus(1444355917160534024,
+                network.focus('1444355917160534024',
                               {
                                   scale: 1.0,
                                   animation: true,
                               });
 
                 // add event listeners
-                network.on("select", function (params) {
-                    document.getElementById("selection").innerText =
-                        "Selection: " + params.nodes;
+                //network.on("select", function (params) { });
+
+                network.on('click', function(params) {
+                    if (params.event.tapCount == 1) {
+                        if (params.nodes.length == 1) {
+                            var url = 'https://twitter.com/tweet2doom/status/' + params.nodes[0];
+                            setTimeout(function(){ window.open(url, '_blank').focus() }, 250);
+                        }
+                    }
                 });
             }
         </script>
