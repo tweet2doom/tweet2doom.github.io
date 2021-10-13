@@ -352,6 +352,7 @@ nodes.push({ id: '1448082678553718785', label: "", level: 2, group: "node", imag
 nodes.push({ id: '1448083073044779011', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1448083510326071298', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1448084442824728579', label: "", level: 2, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1448084944790642690', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
@@ -703,6 +704,7 @@ nodes.push({ id: '1448082613021904899', label: "StealthDad", level: 1, group: "c
 nodes.push({ id: '1448083009974980608', label: "StealthDad", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1448083447302459398', label: "StealthDad", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1448084377754378246', label: "StealthDad", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1448084879770587136', label: "StealthDad", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -1406,4 +1408,6 @@ edges.push({ from: '1448083447302459398', to: '1444355917160534024' });
 edges.push({ from: '1448083510326071298', to: '1448083447302459398' });
 edges.push({ from: '1448084377754378246', to: '1444355917160534024' });
 edges.push({ from: '1448084442824728579', to: '1448084377754378246' });
+edges.push({ from: '1448084879770587136', to: '1444355917160534024' });
+edges.push({ from: '1448084944790642690', to: '1448084879770587136' });
 }
