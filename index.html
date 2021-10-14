@@ -90,7 +90,8 @@
 
                 graph_create();
 
-                var focusId  = findGetParameter('f') || '1444355917160534024';
+                var rootId = '1444355917160534024';
+                var focusId  = findGetParameter('f') || rootId;
                 var parentId = findGetParameter('p') || '';
 
                 console.log('focusId  = ' + focusId);
@@ -102,7 +103,7 @@
                 var parentIdIdx = -1;
                 for (var i = 0; i < nodes.length; ++i) {
                     if (nodes[i].id == focusId) {
-                        if (nodes[i].group == 'node') {
+                        if (nodes[i].group == 'node' && focusId != rootId) {
                             nodes[i].label = 'Focused';
                         }
                         focusIdIdx = i;
