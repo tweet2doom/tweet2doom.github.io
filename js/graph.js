@@ -939,6 +939,7 @@ nodes.push({ id: '1449112843601780738', label: "", level: 10, group: "node", ima
 nodes.push({ id: '1449113293549883392', label: "", level: 4, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1449113716956479494', label: "", level: 8, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1449114329337499653', label: "", level: 2, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1449114533495193601', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
@@ -1877,6 +1878,7 @@ nodes.push({ id: '1449112739603955719', label: "MiSt_125", level: 9, group: "com
 nodes.push({ id: '1449113152046706689', label: "RisenDeath_", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1449113623503249413', label: "zzekazy", level: 7, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1449114248047644681', label: "damirdubvik", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1449114393598365703', label: "damirdubvik", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -3754,4 +3756,6 @@ edges.push({ from: '1449113623503249413', to: '1448867734671040514' });
 edges.push({ from: '1449113716956479494', to: '1449113623503249413' });
 edges.push({ from: '1449114248047644681', to: '1444355917160534024' });
 edges.push({ from: '1449114329337499653', to: '1449114248047644681' });
+edges.push({ from: '1449114393598365703', to: '1444355917160534024' });
+edges.push({ from: '1449114533495193601', to: '1449114393598365703' });
 }
