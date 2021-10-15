@@ -90,6 +90,37 @@
 
                 graph_create();
 
+                // filter depth 1 nodes without children
+                // there are simply too much of those ..
+                {
+                    var nodeMap = {};
+
+                    for (var i = 0; i < nodes.length; ++i) {
+                        nodeMap[nodes[i].id] = i;
+                        nodes[i].t2d_count = 0;
+                    }
+
+                    for (var i = 0; i < edges.length; ++i) {
+                        nodes[nodeMap[edges[i].to]].t2d_count++;
+                    }
+
+                    var nodesFiltered = [];
+
+                    for (var i = 0; i < edges.length; ++i) {
+                        if (nodes[nodeMap[edges[i].from]].t2d_count == 0 && nodes[nodeMap[edges[i].from]].level == 2) {
+                            nodes[nodeMap[edges[i].to]].t2d_count = -1;
+                        }
+                    }
+
+                    for (var i = 0; i < nodes.length; ++i) {
+                        if (nodes[i].t2d_count > 0) {
+                            nodesFiltered.push(nodes[i]);
+                        }
+                    }
+
+                    nodes = nodesFiltered;
+                }
+
                 var rootId = '1444355917160534024';
                 var focusId  = findGetParameter('f') || rootId;
                 var parentId = findGetParameter('p') || '';
