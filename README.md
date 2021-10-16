@@ -48,6 +48,17 @@ Example:
 https://user-images.githubusercontent.com/92263613/137576751-c7a7cf1a-7cde-4d7d-aa6b-346a0b74d947.mp4
 
 
+### Print statistics
 
+The [stats.sh](stats.sh) script prints various statistics about the current state tree.
 
+Example:
+
+```bash
+./stats.sh
+Max depth:   56
+Max frames:  7910
+Num players: 416
+Num nodes:   1139
+```
 
