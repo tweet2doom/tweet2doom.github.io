@@ -1,3 +1,4 @@
+.env
 .savegame
 log-sync.txt
 tmp
