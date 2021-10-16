@@ -1,0 +1,10 @@
+,#@plague_spreader#x,e,,e,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr,sr
+,#@pfif19#d,,,,,,,,,,,,,,,,,,,
+,#@pfif19#r,,,,,,,,,,,,,,,,,,,p,,,,,,,,,,,,,,,,,,,
+,#@pfif19#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+,#@pfif19#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+,#@pfif19#>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>
+,#@pfif19#u,u,u,u,u,u,u,u,u,u,r,r,u,u,u,u,u,u,r,r,u,u
+,#@pfif19#5r,f,f,f,f,f,f,f,f,f,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@pfif19#r,r,r,r,r,r,f,,,,,,,,,,,,,,,,,,
+,#@pfif19#r,r,f,f,f,f,f,f,f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
