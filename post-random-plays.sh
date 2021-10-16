@@ -12,4 +12,4 @@ git pull --rebase
 
 node $dir_tweet2doom/post/post.js "🎥 Random plays
 
-Auto-generated highlights of 10 random @tweet2doom nodes" ./tmp/highlights.mp4
+Auto-generated highlights from 10 random @tweet2doom nodes" ./tmp/highlights.mp4
