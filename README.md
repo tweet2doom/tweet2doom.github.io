@@ -9,7 +9,7 @@ The repository also contains a few tools:
 
 ### State Explorer
 
-This is a simple static webpage that provides a visualization of the current state tree of [@tweet2doom](https://twitter.com/tweet2doom). Visit the following link to see what it looks like:
+This is a [simple static webpage](index.html) that provides a visualization of the current state tree of [@tweet2doom](https://twitter.com/tweet2doom). Visit the following link to see what it looks like:
 
 https://tweet2doom.github.io
 
