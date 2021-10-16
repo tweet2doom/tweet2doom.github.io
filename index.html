@@ -113,7 +113,7 @@
                     }
 
                     for (var i = 0; i < nodes.length; ++i) {
-                        if (nodes[i].t2d_count > 0) {
+                        if (nodes[i].t2d_count > 0 || nodes[i].level > 2) {
                             nodesFiltered.push(nodes[i]);
                         }
                     }
