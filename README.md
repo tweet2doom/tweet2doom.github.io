@@ -37,7 +37,7 @@ https://user-images.githubusercontent.com/92263613/137576609-638ffe97-7500-465d-
 
 ### Random plays generator
 
-The [random-plays.sh](random-plays.sh) script generate a short video with 10 plays randomly selected from the entire state tree.
+The [random-plays.sh](random-plays.sh) script generate a short video with 10 plays randomly selected nodes from the entire state tree.
 
 Example:
 
