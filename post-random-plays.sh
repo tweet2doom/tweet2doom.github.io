@@ -6,6 +6,8 @@ wd=$(pwd)
 
 dir_tweet2doom="$wd/tweet2doom"
 
+git pull --rebase
+
 ./random-plays.sh
 
 node $dir_tweet2doom/post/post.js "🎥 Random plays
