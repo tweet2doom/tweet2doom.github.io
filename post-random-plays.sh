@@ -15,4 +15,4 @@ node $dir_tweet2doom/post/post.js "🎥 Random plays
 Auto-generated highlights from @tweet2doom nodes.
 The commands are tweeted by people and executed by a bot.
 
-🤖 Posted daily at 14:00 UTC" ./tmp/highlights.mp4
+🤖 Generated daily at 14:00 UTC" ./tmp/highlights.mp4
