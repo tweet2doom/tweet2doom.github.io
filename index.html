@@ -30,6 +30,14 @@
         <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
+        <!-- iOS optimization -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
+        <script type="text/javascript">
+            document.ontouchmove = function(event){
+                event.preventDefault();
+            }
+        </script>
+
         <style type="text/css">
             html,
             body,
@@ -53,6 +61,42 @@
 
             #title {
                 margin-bottom: 5em;
+            }
+
+            div.vis-network div.vis-navigation div.vis-button.vis-up {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/upArrow.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-down {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/downArrow.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-left {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/leftArrow.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-right {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/rightArrow.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomIn {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/plus.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/minus.png") !important;
+            }
+            div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+                filter: contrast(160%);
+                margin-bottom: 5em;
+                background-image: url("images/zoomExtends.png") !important;
             }
         </style>
 
@@ -206,19 +250,6 @@
                         animation: true,
                     });
                 }
-
-                // add event listeners
-                //network.on("select", function (params) { });
-
-                const kZoomLimit = 0.49;
-                network.on("zoom", function() {
-                    if (network.getScale() < kZoomLimit ) {
-                        network.moveTo({
-                                       scale: kZoomLimit,
-                                       animation: false,
-                        });
-                    }
-                });
 
                 network.on('click', function(params) {
                     if (params.event.tapCount == 1) {
