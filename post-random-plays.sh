@@ -16,3 +16,5 @@ Auto-generated highlights from @tweet2doom nodes.
 The commands are tweeted by people and executed by a bot.
 
 🤖 Generated daily at 14:00 UTC" ./tmp/highlights.mp4
+
+echo $? > ./tmp/post.code

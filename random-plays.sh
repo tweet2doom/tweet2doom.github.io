@@ -42,7 +42,7 @@ for i in $nodes_render ; do
 done
 
 cd tmp
-for i in `ls` ; do
+for i in `ls | sort -R` ; do
    echo "file '$i'" >> list
 done
 
