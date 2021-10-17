@@ -38,7 +38,7 @@
                 padding: 0px;
                 color: #00ba7c;
                 font: 12pt arial;
-                background-color: #15202b;
+                background-color: #0A1016;
             }
 
             #t2dnet {
@@ -166,6 +166,9 @@
                         },
                     },
                     nodes: {
+                        shapeProperties: {
+                            interpolation: true
+                        },
                         shape: "dot",
                         size: 20,
                         font: {
@@ -179,6 +182,8 @@
                         selectable: true,
                         dragNodes: false,
                         multiselect: false,
+                        navigationButtons: true,
+                        keyboard: true,
                     },
                     physics: false,
                     groups: {
@@ -192,18 +197,28 @@
                         },
                     },
                 };
+
                 network = new vis.Network(container, data, options);
 
                 if (doFocus) {
-                    network.focus(focusId,
-                                  {
-                                      scale: 1.0,
-                                      animation: true,
-                                  });
+                    network.focus(focusId, {
+                        scale: 0.75,
+                        animation: true,
+                    });
                 }
 
                 // add event listeners
                 //network.on("select", function (params) { });
+
+                const kZoomLimit = 0.49;
+                network.on("zoom", function() {
+                    if (network.getScale() < kZoomLimit ) {
+                        network.moveTo({
+                                       scale: kZoomLimit,
+                                       animation: false,
+                        });
+                    }
+                });
 
                 network.on('click', function(params) {
                     if (params.event.tapCount == 1) {
