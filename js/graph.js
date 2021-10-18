@@ -2741,6 +2741,8 @@ nodes.push({ id: '1450055391631527936', label: "", level: 122, group: "node", im
 nodes.push({ id: '1450055543725375490', label: "", level: 316, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1450055767403470848', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1450055981883445254', label: "", level: 2, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1450056137856978949', label: "", level: 124, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1450056290802282506', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
@@ -5481,6 +5483,8 @@ nodes.push({ id: '1450055156784144384', label: "migero_usausagi", level: 121, gr
 nodes.push({ id: '1450055233183395846', label: "GammarikD", level: 315, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1450055655016964097', label: "Mateopisano1", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1450055867978637316', label: "ROGUETROOPER732", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1450055989533814787', label: "migero_usausagi", level: 123, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1450055996831797260', label: "Takaru_u", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -10962,4 +10966,8 @@ edges.push({ from: '1450055655016964097', to: '1444355917160534024' });
 edges.push({ from: '1450055767403470848', to: '1450055655016964097' });
 edges.push({ from: '1450055867978637316', to: '1444355917160534024' });
 edges.push({ from: '1450055981883445254', to: '1450055867978637316' });
+edges.push({ from: '1450055989533814787', to: '1450055391631527936' });
+edges.push({ from: '1450056137856978949', to: '1450055989533814787' });
+edges.push({ from: '1450055996831797260', to: '1444355917160534024' });
+edges.push({ from: '1450056290802282506', to: '1450055996831797260' });
 }
