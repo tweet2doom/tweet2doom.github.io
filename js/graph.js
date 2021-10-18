@@ -2244,6 +2244,8 @@ nodes.push({ id: '1449915598398496768', label: "", level: 136, group: "node", im
 nodes.push({ id: '1449915746042236928', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1449915900296007680', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1449916051345530883', label: "", level: 138, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1449916204534181890', label: "", level: 4, group: "node", image: "images/logo.png" });
+nodes.push({ id: '1449916351343120386', label: "", level: 2, group: "node", image: "images/logo.png" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
@@ -4487,6 +4489,8 @@ nodes.push({ id: '1449915463799033860', label: "ManWithNoGame45", level: 135, gr
 nodes.push({ id: '1449915605520424960', label: "thelball", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1449915652882538498', label: "elkin_hercules", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 nodes.push({ id: '1449915766644563970', label: "ManWithNoGame45", level: 137, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1449915908806303746', label: "thelball", level: 3, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
+nodes.push({ id: '1449915953702182913', label: "elkin_hercules", level: 1, group: "command", font: { face: "Liberation Mono", size: 12 }, chosen: false });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -8974,4 +8978,8 @@ edges.push({ from: '1449915652882538498', to: '1444355917160534024' });
 edges.push({ from: '1449915900296007680', to: '1449915652882538498' });
 edges.push({ from: '1449915766644563970', to: '1449915598398496768' });
 edges.push({ from: '1449916051345530883', to: '1449915766644563970' });
+edges.push({ from: '1449915908806303746', to: '1449915746042236928' });
+edges.push({ from: '1449916204534181890', to: '1449915908806303746' });
+edges.push({ from: '1449915953702182913', to: '1444355917160534024' });
+edges.push({ from: '1449916351343120386', to: '1449915953702182913' });
 }
