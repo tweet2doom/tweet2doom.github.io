@@ -1,0 +1,9 @@
+@tweet2doom Here are a few examples to get you started:
+
+- Escape to bring menu
+- Enter 3 times to start game
+- Wait 50 frames for screen wipe
+- Walk 50 frames forward
+- Wait for 35 frames
+
+/play x,e,e,e,50-U,35-U,35-&gt;
