@@ -1,0 +1,1 @@
+@tweet2doom /play 8-s&gt;r,12-s&gt;,f,23-sr,10-u,p,7-r,15-,f,3-lu,5-s&lt;d,10-Ur,60-suf,10-su&lt;,25-su,p,15-,5-f,25-sfu,5-su&lt;f,5-sfu,5-sfu&gt;,10-suf
