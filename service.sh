@@ -5,7 +5,7 @@ cd $wd/
 wd=$(pwd)
 
 while true ; do
-    sleep 15
+    sleep 3600
 
     echo "Doing update `date` ..."
 
