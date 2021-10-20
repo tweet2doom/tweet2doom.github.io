@@ -11,7 +11,7 @@ while true ; do
 
     git pull --rebase
 
-    ./sync.sh >> log-sync.txt
+    ./sync.sh > log-sync.txt
 
     num_new=$(git ls-files --others --exclude-standard data/nodes | wc -l)
     if [ "$num_new" -eq 0 ] ; then
