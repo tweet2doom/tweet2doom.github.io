@@ -1,0 +1,4 @@
+,#@shopatten#x,,e,,,,,,,,,,,e,,,,,,,,,,,d,,,,,,,,,,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@shopatten#,u,,,,,,,,,,,>,,,,,,,,,,,r,,,,,
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,>,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,e
