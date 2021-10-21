@@ -1,0 +1,16 @@
+,#@shopatten#x,,e,,,,,,,,,,,e,,,,,,,,,,,d,,,,,,,,,,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur,ur
+,#@shopatten#l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+,#@shopatten#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,p
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,p,r,r,r,r,r,r,r,r,r,r
+,#@shopatten#l,l,l,l,l,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@shopatten#>,>,>,>,>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@shopatten#<,<,<,<,<,<,<,<,<,<,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur
+,#@shopatten#slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,surf,surf,surf,surf,surf,surf,surf,surf,surf,surf
+,#@shopatten#urf,urf,urf,urf,urf,urf,urf,urf,urf,urf,su,su,su,su,su,su,su,su,su,su
+,#@shopatten#urf,urf,urf,urf,urf,urf,urf,urf,urf,urf,su,su,su,su,su,su,su,su,su,su
+,#@shopatten#suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf
+,#@shopatten#suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,suf,>,>,>,>,>,>,>,>,>,>
+,#@shopatten#>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f,>f
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,p
+,#@shopatten#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,p

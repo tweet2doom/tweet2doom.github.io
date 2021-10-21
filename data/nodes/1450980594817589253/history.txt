@@ -1,0 +1,15 @@
+,#@McChikenNuget55#x,e,e,u,d,u,d,u,d,u,d,u,d,u,d,u,d,u,d
+,#@McChikenNuget55#d,d,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@McChikenNuget55#y,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@McChikenNuget55#su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>
+,#@McChikenNuget55#<,<,<,<,<,<,<,<,<,<,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+,#@McChikenNuget55#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,p,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@McChikenNuget55#l,l,l,l,l,l,l,l,l,l,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@McChikenNuget55#l,l,l,l,l,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@McChikenNuget55#l,l,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@McChikenNuget55#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,p,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@McChikenNuget55#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@McChikenNuget55#l,l,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@McChikenNuget55#f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@McChikenNuget55#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@McChikenNuget55#su,su,su,su,su,su,su,su,su,su,l,l,l,l,f,f,f,f
