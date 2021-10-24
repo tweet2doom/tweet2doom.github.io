@@ -1,0 +1,1 @@
+@tweet2doom /play 5-us,10-us&gt;,20-us,p,5-rs,10-,5-f,15-us,5-us,8-usr,15-us&lt;,7-usl,p,10-,7-rs,10-,15-usr&lt;,p,40-,p
