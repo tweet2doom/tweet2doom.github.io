@@ -1,265 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
     <head>
-        <title>Tweet2Doom: State tree</title>
+        <meta charset="utf-8">
+        <title>Tweet2Doom - State Tree Explorer</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Tweet2Doom" />
         <meta name="twitter:description" content="State explorer of the @tweet2doom tree" />
         <meta name="twitter:image" content="https://tweet2doom.github.io/images/cover.png" />
 
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Expires" content="0" />
-
-        <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-        <link rel="manifest" href="/icons/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        <!-- iOS optimization -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
-        <script type="text/javascript">
-            document.ontouchmove = function(event){
-                event.preventDefault();
-            }
-        </script>
+        <link rel="stylesheet" href="style.css">
 
-        <style type="text/css">
-            html,
-            body,
-            #t2dnet {
-                margin: 0px;
-                padding: 0px;
-                color: #00ba7c;
-                font: 12pt arial;
-                background-color: #0A1016;
-            }
-
-            #t2dnet {
-                position: fixed;
-                left: 0px;
-                top: 0px;
-                bottom: 0px;
-                right: 0px;
-                min-height: 100vh;
-                border-right: 1px solid lightgray;
-            }
-
-            #title {
-                margin-bottom: 5em;
-            }
-
-            div.vis-network div.vis-navigation div.vis-button.vis-up {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/upArrow.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-down {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/downArrow.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-left {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/leftArrow.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-right {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/rightArrow.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-zoomIn {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/plus.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-zoomOut {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/minus.png") !important;
-            }
-            div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
-                filter: contrast(160%);
-                margin-bottom: 5em;
-                background-image: url("images/zoomExtends.png") !important;
-            }
-        </style>
-
-        <script>document.write('<script type="text/javascript" src="js/graph.js?dev=' + Math.floor(Math.random() * 1000) + '"\><\/script>');</script>
-        <script type="text/javascript" src="js/vis-network.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="js/gghelpers.js"></script>
     </head>
+    <body>
+        <div id="main-container">
+            <div id="description" align="center" hidden>
+                <h2>Tweet2Doom - State Tree Explorer</h2>
 
-    <body onload="draw();">
-        <div id="t2dnet"></div>
-        <script type="text/javascript">
-            var nodes = [];
-            var edges = [];
-            var network = null;
+                <div id="container_status" align="center">
+                    Loading WebAssembly module - please wait ...
+                </div>
+                <div id="container_button" align="center">
+                    <br>
+                    <button onClick="doInit()" id="butInit" style="width:60px;height:30px;" disabled>Init</button>
+                </div>
+            </div>
+            <div id="container_canvas" hidden>
+                <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+            </div>
+            <button id="linkOpener" onclick='window.open("https://twitter.com/tweet2doom", "_blank");' style='position: absolute;top: 0;display: none' hidden>Link opener helper</button>
+        </div>
 
-            function findGetParameter(parameterName) {
-                var result = null,
-                    tmp = [];
-                var items = location.search.substr(1).split("&");
-                for (var index = 0; index < items.length; index++) {
-                    tmp = items[index].split("=");
-                    if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
-                }
-                return result;
+        <div id="footer" class="cell-version" hidden>
+            <span hidden>
+                Build time: <span class="nav-link">Fri Oct 22 16:59:28 2021</span> |
+                Commit hash: <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data/commit/5a39083e">5a39083e</a> |
+                Commit subject: <span class="nav-link">Initial version</span> |
+            </span>
+        </div>
+        <!--
+        <div class="cell-about" hidden>
+            <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data"><span class="d-none d-sm-inline">View on GitHub </span>
+                <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a>
+        </div>
+        -->
+
+        <script type='text/javascript'>
+            var isInitialized = false;
+
+            var actionOpenLinkUrl = '';
+
+            function updateWindowSize() {
+                var w = window,
+                    d = document,
+                    e = d.documentElement,
+                    g = d.getElementsByTagName('body')[0],
+                    x = w.innerWidth || e.clientWidth || g.clientWidth,
+                    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+                //Module._set_window_size(0.99*x, y - 1.40*document.getElementById('footer').clientHeight);
+                Module._set_window_size(0.99*x, 0.99*y);
             }
 
-            function draw() {
-                // clean up old network
-                if (network != null) {
-                    network.destroy();
-                    network = null;
+            async function getOpenLinkUrl() {
+                return actionOpenLinkUrl;
+            }
+
+            window.setInterval(function(){
+                if (mobileCheck()) {
+                    document.getElementById("footer").innerHTML = '';
                 }
+                if (isInitialized == false) return;
+                updateWindowSize();
 
-                // create a network
-                var container = document.getElementById("t2dnet");
-
-                graph_create();
-
-                // filter depth 1 nodes without children
-                // there are simply too much of those ..
-                {
-                    var nodeMap = {};
-
-                    for (var i = 0; i < nodes.length; ++i) {
-                        nodeMap[nodes[i].id] = i;
-                        nodes[i].t2d_count = 0;
-                    }
-
-                    for (var i = 0; i < edges.length; ++i) {
-                        nodes[nodeMap[edges[i].to]].t2d_count++;
-                    }
-
-                    var nodesFiltered = [];
-
-                    for (var i = 0; i < edges.length; ++i) {
-                        if (nodes[nodeMap[edges[i].from]].t2d_count == 0 && nodes[nodeMap[edges[i].from]].level == 2) {
-                            nodes[nodeMap[edges[i].to]].t2d_count = -1;
-                        }
-                    }
-
-                    for (var i = 0; i < nodes.length; ++i) {
-                        if (nodes[i].t2d_count > 0 || nodes[i].level > 2) {
-                            nodesFiltered.push(nodes[i]);
-                        }
-                    }
-
-                    nodes = nodesFiltered;
-                }
-
-                var rootId = '1444355917160534024';
-                var focusId  = findGetParameter('f') || rootId;
-                var parentId = findGetParameter('p') || '';
-
-                console.log('focusId  = ' + focusId);
-                console.log('parentId = ' + parentId);
-
-                var doFocus = true;
-
-                var focusIdIdx = -1;
-                var parentIdIdx = -1;
-                for (var i = 0; i < nodes.length; ++i) {
-                    if (nodes[i].id == focusId) {
-                        if (nodes[i].group == 'node' && focusId != rootId) {
-                            nodes[i].label = 'Focused';
-                        }
-                        focusIdIdx = i;
-                    }
-                    if (nodes[i].id == parentId) parentIdIdx = i;
-                }
-
-                console.log('focusIdIdx = ' + focusIdIdx);
-                console.log('parentIdIdx = ' + parentIdIdx);
-
-                if (focusIdIdx < 0 && parentIdIdx < 0) {
-                    doFocus = false;
-                }
-
-                if (focusIdIdx < 0 && parentIdIdx > 0) {
-                    nodes.push({ id: focusId, label: "Focused", level: nodes[parentIdIdx].level + 1, group: "node", image: "images/logo.png" });
-                    edges.push({ from: focusId, to: parentId });
-                }
-
-                var data = { nodes, edges };
-                var options = {
-                    layout: {
-                        hierarchical: {
-                            direction: "UD",
-                            sortMethod: "directed",
-                            nodeSpacing: 140,
-                            edgeMinimization: true,
-                            parentCentralization: true,
-                        },
-                    },
-                    nodes: {
-                        shapeProperties: {
-                            interpolation: true
-                        },
-                        shape: "dot",
-                        size: 20,
-                        font: {
-                            size: 15,
-                            color: "#ffffff",
-                        },
-                        borderWidth: 2,
-                    },
-                    interaction: {
-                        hover: true,
-                        selectable: true,
-                        dragNodes: false,
-                        multiselect: false,
-                        navigationButtons: true,
-                        keyboard: true,
-                    },
-                    physics: false,
-                    groups: {
-                        node: {
-                            shape: "circularImage",
-                        },
-                        command: {
-                            label: "I'm a dot!",
-                            shape: "box",
-                            color: "#1da1f2",
-                        },
-                    },
-                };
-
-                network = new vis.Network(container, data, options);
-
-                if (doFocus) {
-                    network.focus(focusId, {
-                        scale: 0.75,
-                        animation: true,
+                var openId = Module.get_action_open_id();
+                if (openId.length > 0) {
+                    actionOpenLinkUrl = 'https://twitter.com/tweet2doom/status/' + openId;
+                    windowReference = window.open("about:blank", "_blank");
+                    getOpenLinkUrl().then(function(url) {
+                        if (url.length <= 0) return;
+                        windowReference.location = url;
                     });
                 }
+            }, 500);
 
-                network.on('click', function(params) {
-                    if (params.event.tapCount == 1) {
-                        if (params.nodes.length == 1) {
-                            var url = 'https://twitter.com/tweet2doom/status/' + params.nodes[0];
-                            setTimeout(function(){ window.open(url, '_blank').focus() }, 250);
-                        }
-                    }
-                });
+            function onkeydown(event) {
+                if (event.keyCode >= 112 && event.keyCode <= 123) {
+                    event.stopImmediatePropagation();
+                } else if (
+                        event.keyCode == 8 || // Backspace
+                        event.keyCode == 9 || // Tab
+                        event.keyCode == 46 || // Delete
+                        (event.keyCode >= 37 && event.keyCode <= 40)) { // Arrow keys
+                    event.preventDefault();
+                }
             }
+
+            function init() {
+                document.getElementById('container_status').innerHTML = "WebAssembly module initialized successfully! Press the Init button to start:"
+                document.getElementById('container_status').style.color = "#00ff00";
+
+                document.getElementById("butInit").disabled = false;
+
+                window.addEventListener('keydown', onkeydown, true);
+            }
+
+            function doInit() {
+                if (isInitialized == false) {
+                    $.ajaxSetup({ async: false });
+
+                    $.getJSON("json/nodes.json", function(json) {
+                        for (var idx in json) {
+                            var node = json[idx];
+                            var type = node.group == 'root' ? 0 : node.group == 'node' ? 1 : 2;
+                            Module.add_node(node.id, node.label, node.level, type, 0, 0);
+                        }
+                    });
+
+                    $.getJSON("json/positions.json", function(json) {
+                        for (var id in json) {
+                            var node = json[id];
+                            Module.update_node_position(id, node.x, node.y);
+                        }
+                    });
+
+                    $.getJSON("json/edges.json", function(json) {
+                        for (var idx in json) {
+                            var edge = json[idx];
+                            Module.add_edge(edge.from, edge.to);
+                        }
+                    });
+
+                    $.ajaxSetup({ async: true });
+
+                    var focusId = findGetParameter('f') || '';
+                    Module.focus_node(focusId);
+
+                    Module._tree_changed();
+                    Module._do_init();
+                    updateWindowSize();
+
+                    var el = document.getElementById("container_status");
+                    el.parentNode.removeChild(el);
+                    el = document.getElementById("container_button");
+                    el.parentNode.removeChild(el);
+                    isInitialized = true;
+                }
+
+                var canvas = document.getElementById("container_canvas");
+                canvas.hidden = false;
+
+                // does not work well with touch pads
+                if (mobileCheck()) {
+                    var hammertime = new Hammer(canvas, {});
+                    hammertime.get('pinch').set({ enable: true });
+                    //hammertime.get('pinchstart').set({ enable: true });
+                    //hammertime.get('pinchend').set({ enable: true });
+                    hammertime.on('pinchstart pinch pinchend', function(ev) {
+                        //window.alert(ev.scale);
+                        //window.alert(JSON.stringify(ev));
+                        if (ev.type == 'pinchstart') {
+                            Module._set_pinch(ev.center.x, ev.center.y, ev.scale, 0);
+                        }
+                        if (ev.type == 'pinch') {
+                            Module._set_pinch(ev.center.x, ev.center.y, ev.scale, 1);
+                        }
+                        if (ev.type == 'pinchend') {
+                            Module._set_pinch(ev.center.x, ev.center.y, ev.scale, 2);
+                        }
+                    });
+                }
+            }
+
+            var Module = {
+                arguments: [],
+                preRun: [(function() { }) ],
+                postRun: [(function () {
+                    doInit();
+                    //init();
+                })
+                ],
+                canvas: (function() {
+                    var canvas = document.getElementById('canvas');
+                    canvas.addEventListener("webglcontextlost", function(e) {
+                        alert('WebGL context lost. You will need to reload the page.'); e.preventDefault();
+                    }, false);
+
+                    return canvas;
+                })(),
+                print: function(text) {
+                    text = Array.prototype.slice.call(arguments).join(' ');
+                    console.log(text);
+                },
+                printErr: function(text) {
+                    text = Array.prototype.slice.call(arguments).join(' ');
+                    console.error(text);
+                },
+                setStatus: function(text) {
+                    console.log("status: " + text);
+                },
+                monitorRunDependencies: function(left) {
+                    // no run dependencies to log
+                }
+            };
+
+            window.onerror = function() {
+                console.log("onerror: " + JSON.stringify(event));
+                document.getElementById('container_status').innerHTML = JSON.stringify(event);
+                document.getElementById('container_status').style.color = "#ff0000";
+                document.getElementById('container_button').hidden = true;
+            };
         </script>
+
+        <script async type="text/javascript" src="t2d-explorer.js"></script>
     </body>
 </html>
