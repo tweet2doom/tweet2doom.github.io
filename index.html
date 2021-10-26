@@ -48,10 +48,6 @@
                 <div id="container_status" align="center">
                     Loading WebAssembly module - please wait ...
                 </div>
-                <div id="container_button" align="center">
-                    <br>
-                    <button onClick="doInit()" id="butInit" style="width:60px;height:30px;" disabled>Init</button>
-                </div>
             </div>
             <div id="container_canvas" hidden>
                 <canvas class="emscripten" id="canvas"></canvas>
@@ -60,9 +56,9 @@
 
         <div id="footer" class="cell-version" hidden>
             <span hidden>
-                Build time: <span class="nav-link">Tue Oct 26 17:08:07 2021</span> |
-                Commit hash: <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data/commit/0dbd5f41">0dbd5f41</a> |
-                Commit subject: <span class="nav-link">Fix random-plays.sh</span> |
+                Build time: <span class="nav-link">Tue Oct 26 19:37:30 2021</span> |
+                Commit hash: <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data/commit/bd181e1e">bd181e1e</a> |
+                Commit subject: <span class="nav-link">explorer : fix input handling + loading display</span> |
             </span>
         </div>
         <!--
@@ -99,18 +95,16 @@
             }, 500);
 
             function onkeydown(event) {
-                console.log(event);
                 if (event.ctrlKey ||
-                    (event.keyCode >= 112 && event.keyCode <= 123)
-                ) {
+                    (event.keyCode >= 112 && event.keyCode <= 123)) {
                     event.stopImmediatePropagation();
                     return;
                 }
-                if (
-                        event.keyCode == 8 || // Backspace
-                        event.keyCode == 9 || // Tab
-                        event.keyCode == 46 || // Delete
-                        (event.keyCode >= 37 && event.keyCode <= 40)) { // Arrow keys
+
+                if (event.keyCode == 8 || // Backspace
+                    event.keyCode == 9 || // Tab
+                    event.keyCode == 46 || // Delete
+                    (event.keyCode >= 37 && event.keyCode <= 40)) { // Arrow keys
                     event.preventDefault();
                 }
             }
@@ -128,8 +122,6 @@
             function init() {
                 document.getElementById('container_status').innerHTML = "WebAssembly module initialized successfully! Press the Init button to start:"
                 document.getElementById('container_status').style.color = "#00ff00";
-
-                document.getElementById("butInit").disabled = false;
 
                 window.addEventListener('keydown', onkeydown, true);
                 window.addEventListener('touchend', checkForActions, true);
@@ -171,10 +163,6 @@
                     Module._do_init();
                     updateWindowSize();
 
-                    var el = document.getElementById("container_status");
-                    el.parentNode.removeChild(el);
-                    el = document.getElementById("container_button");
-                    el.parentNode.removeChild(el);
                     isInitialized = true;
                 }
 
@@ -243,13 +231,12 @@
                 }
             };
 
-            window.onerror = function() {
+            window.onerror = function(event) {
                 failedToInitialize = true;
                 console.log("onerror: " + JSON.stringify(event));
                 document.getElementById('container_status').innerHTML = JSON.stringify(event);
                 document.getElementById('container_status').innerHTML += '<br>This browser is not supported. Please try a different browser';
                 document.getElementById('container_status').style.color = "#ff0000";
-                document.getElementById('container_button').hidden = true;
             };
         </script>
 
