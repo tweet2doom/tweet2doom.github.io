@@ -57,8 +57,8 @@
         <div id="footer" class="cell-version" hidden>
             <span hidden>
                 Build time: <span class="nav-link">Thu Oct 28 18:00:05 2021</span> |
-                Commit hash: <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data/commit/8e95f1fb">8e95f1fb</a> |
-                Commit subject: <span class="nav-link">Fix mouse wheel scroll bug</span> |
+                Commit hash: <a class="nav-link" href="https://github.com/ggerganov/tweet2doom-data/commit/35186edd">35186edd</a> |
+                Commit subject: <span class="nav-link">Various improvements:</span> |
             </span>
         </div>
         <!--
@@ -112,7 +112,7 @@
             function checkForActions(event) {
                 setTimeout(function() { 
                     var openId = Module.get_action_open_id();
-                    if (openId.length > 0) {
+                    if (openId.length > 2) {
                         var url = 'https://twitter.com/tweet2doom/status/' + openId;
                         window.open(url, '_blank').focus();
                     }
