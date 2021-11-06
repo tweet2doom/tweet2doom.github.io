@@ -7618,6 +7618,7 @@ nodes.push({ id: '1456603191575994370', label: "tweet2doom", level: 40, group: "
 nodes.push({ id: '1456603823611518978', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1456792246112636929', label: "tweet2doom", level: 514, group: "node" });
 nodes.push({ id: '1456837615051841536', label: "tweet2doom", level: 68, group: "node" });
+nodes.push({ id: '1456893265224028162', label: "tweet2doom", level: 68, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -15235,6 +15236,7 @@ nodes.push({ id: '1456603071144992775', label: "ANR_035", level: 39, group: "com
 nodes.push({ id: '1456603736504258572', label: "ANR_035", level: 1, group: "command" });
 nodes.push({ id: '1456792132572827651', label: "wumb0man", level: 513, group: "command" });
 nodes.push({ id: '1456837510080782345', label: "tftoput", level: 67, group: "command" });
+nodes.push({ id: '1456893158864850944', label: "Vali123411", level: 67, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -30470,4 +30472,6 @@ edges.push({ from: '1456792132572827651', to: '1450838888117903361' });
 edges.push({ from: '1456792246112636929', to: '1456792132572827651' });
 edges.push({ from: '1456837510080782345', to: '1449678007149416449' });
 edges.push({ from: '1456837615051841536', to: '1456837510080782345' });
+edges.push({ from: '1456893158864850944', to: '1449678007149416449' });
+edges.push({ from: '1456893265224028162', to: '1456893158864850944' });
 }
