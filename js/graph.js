@@ -7697,6 +7697,8 @@ nodes.push({ id: '1459808678438133760', label: "tweet2doom", level: 4, group: "n
 nodes.push({ id: '1459809122145259520', label: "tweet2doom", level: 6, group: "node" });
 nodes.push({ id: '1459809518741766148', label: "tweet2doom", level: 8, group: "node" });
 nodes.push({ id: '1459869028919431177', label: "tweet2doom", level: 288, group: "node" });
+nodes.push({ id: '1459877004145217544', label: "tweet2doom", level: 22, group: "node" });
+nodes.push({ id: '1459878458285334530', label: "tweet2doom", level: 24, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -15393,6 +15395,8 @@ nodes.push({ id: '1459808552873201668', label: "2077Thunderwolf", level: 3, grou
 nodes.push({ id: '1459808994629849089', label: "2077Thunderwolf", level: 5, group: "command" });
 nodes.push({ id: '1459809395097825282', label: "2077Thunderwolf", level: 7, group: "command" });
 nodes.push({ id: '1459868889307877381', label: "GamerTinta1", level: 287, group: "command" });
+nodes.push({ id: '1459876895449825280', label: "Tindroyes1", level: 21, group: "command" });
+nodes.push({ id: '1459878362009194502', label: "Tindroyes1", level: 23, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -30786,4 +30790,8 @@ edges.push({ from: '1459809395097825282', to: '1459809122145259520' });
 edges.push({ from: '1459809518741766148', to: '1459809395097825282' });
 edges.push({ from: '1459868889307877381', to: '1450034098769174531' });
 edges.push({ from: '1459869028919431177', to: '1459868889307877381' });
+edges.push({ from: '1459876895449825280', to: '1459729141348057093' });
+edges.push({ from: '1459877004145217544', to: '1459876895449825280' });
+edges.push({ from: '1459878362009194502', to: '1459877004145217544' });
+edges.push({ from: '1459878458285334530', to: '1459878362009194502' });
 }
