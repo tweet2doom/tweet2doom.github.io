@@ -1,0 +1,1 @@
+@tweet2doom /play 40-U,p,,f,,10-d,15-&lt;f,15-&gt;f,15-&lt;f,15-&gt;f,15-&lt;f,15-&gt;f,10-&lt;U,20-&gt;U,p,,20-U,14-R,10-U,p,,90-U
