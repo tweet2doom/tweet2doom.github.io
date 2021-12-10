@@ -8007,6 +8007,7 @@ nodes.push({ id: '1469148410842271744', label: "tweet2doom", level: 24, group: "
 nodes.push({ id: '1469149786804834305', label: "tweet2doom", level: 24, group: "node" });
 nodes.push({ id: '1469150352649900033', label: "tweet2doom", level: 26, group: "node" });
 nodes.push({ id: '1469152036616908803', label: "tweet2doom", level: 28, group: "node" });
+nodes.push({ id: '1469407413103218696', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16013,6 +16014,7 @@ nodes.push({ id: '1469148288960057348', label: "niko_himi", level: 23, group: "c
 nodes.push({ id: '1469149662229708804', label: "niko_himi", level: 23, group: "command" });
 nodes.push({ id: '1469150226648903685', label: "niko_himi", level: 25, group: "command" });
 nodes.push({ id: '1469151909143580686', label: "niko_himi", level: 27, group: "command" });
+nodes.push({ id: '1469407329397481475', label: "TronoxGG", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -32026,4 +32028,6 @@ edges.push({ from: '1469150226648903685', to: '1469149786804834305' });
 edges.push({ from: '1469150352649900033', to: '1469150226648903685' });
 edges.push({ from: '1469151909143580686', to: '1469150352649900033' });
 edges.push({ from: '1469152036616908803', to: '1469151909143580686' });
+edges.push({ from: '1469407329397481475', to: '1444355917160534024' });
+edges.push({ from: '1469407413103218696', to: '1469407329397481475' });
 }
