@@ -1,0 +1,11 @@
+,#@niko_himi#e,,,,,,e,,,,,,e,,,,,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@niko_himi#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+,#@niko_himi#,,,,,,,,,,,,,,,,,,u,u,u,u,u
+,#@niko_himi#u,u,u,u,u,p,p,p,p,p,p,p,p,p,p,p,p,p
+,#@niko_himi#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@niko_himi#l,l,p,,,,,,,,,,,,,,,,,,,,,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
