@@ -8019,6 +8019,7 @@ nodes.push({ id: '1470075255012085763', label: "tweet2doom", level: 10, group: "
 nodes.push({ id: '1470092871973937161', label: "tweet2doom", level: 12, group: "node" });
 nodes.push({ id: '1470115802997219330', label: "tweet2doom", level: 14, group: "node" });
 nodes.push({ id: '1470117028258541568', label: "tweet2doom", level: 16, group: "node" });
+nodes.push({ id: '1470152063774568448', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16037,6 +16038,7 @@ nodes.push({ id: '1470075139689750530', label: "PedroAs95580594", level: 9, grou
 nodes.push({ id: '1470092761772826633', label: "PedroAs95580594", level: 11, group: "command" });
 nodes.push({ id: '1470115688077537281', label: "PedroAs95580594", level: 13, group: "command" });
 nodes.push({ id: '1470116917738418182', label: "PedroAs95580594", level: 15, group: "command" });
+nodes.push({ id: '1470151943410618373', label: "LegacyAdrian", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -32074,4 +32076,6 @@ edges.push({ from: '1470115688077537281', to: '1470092871973937161' });
 edges.push({ from: '1470115802997219330', to: '1470115688077537281' });
 edges.push({ from: '1470116917738418182', to: '1470115802997219330' });
 edges.push({ from: '1470117028258541568', to: '1470116917738418182' });
+edges.push({ from: '1470151943410618373', to: '1444355917160534024' });
+edges.push({ from: '1470152063774568448', to: '1470151943410618373' });
 }
