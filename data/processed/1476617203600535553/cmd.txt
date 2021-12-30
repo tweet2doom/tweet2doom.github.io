@@ -1,0 +1,3 @@
+@tweet2doom lets see what happens if i play "x,,e,,e,,e,,50-,50-u,15-f," ever
+
+/play x,,e,,e,,e,,50-,50-u,15-f,
