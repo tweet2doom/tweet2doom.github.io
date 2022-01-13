@@ -1,0 +1,1 @@
+@tweet2doom /play 5-r,5-u,p,20-,20-u,50-f
