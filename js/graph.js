@@ -8096,6 +8096,7 @@ nodes.push({ id: '1481422572621340678', label: "tweet2doom", level: 40, group: "
 nodes.push({ id: '1481422991686840323', label: "tweet2doom", level: 42, group: "node" });
 nodes.push({ id: '1481661573559164936', label: "tweet2doom", level: 44, group: "node" });
 nodes.push({ id: '1481854916012429316', label: "tweet2doom", level: 22, group: "node" });
+nodes.push({ id: '1482133621741965312', label: "tweet2doom", level: 44, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16191,6 +16192,7 @@ nodes.push({ id: '1481422457537974275', label: "Vortexmind", level: 39, group: "
 nodes.push({ id: '1481422886149763072', label: "Vortexmind", level: 41, group: "command" });
 nodes.push({ id: '1481661457456861189', label: "Shade_Aurion", level: 43, group: "command" });
 nodes.push({ id: '1481854785162784769', label: "luisprata5", level: 21, group: "command" });
+nodes.push({ id: '1482133487163432970', label: "WforDeathloop", level: 43, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -32382,4 +32384,6 @@ edges.push({ from: '1481661457456861189', to: '1481422991686840323' });
 edges.push({ from: '1481661573559164936', to: '1481661457456861189' });
 edges.push({ from: '1481854785162784769', to: '1461362380533731332' });
 edges.push({ from: '1481854916012429316', to: '1481854785162784769' });
+edges.push({ from: '1482133487163432970', to: '1450334475288727552' });
+edges.push({ from: '1482133621741965312', to: '1482133487163432970' });
 }
