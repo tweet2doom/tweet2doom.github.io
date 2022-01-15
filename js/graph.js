@@ -8098,6 +8098,8 @@ nodes.push({ id: '1481661573559164936', label: "tweet2doom", level: 44, group: "
 nodes.push({ id: '1481854916012429316', label: "tweet2doom", level: 22, group: "node" });
 nodes.push({ id: '1482133621741965312', label: "tweet2doom", level: 44, group: "node" });
 nodes.push({ id: '1482159199727595520', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1482450357540302851', label: "tweet2doom", level: 30, group: "node" });
+nodes.push({ id: '1482454215607918600', label: "tweet2doom", level: 30, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16195,6 +16197,8 @@ nodes.push({ id: '1481661457456861189', label: "Shade_Aurion", level: 43, group:
 nodes.push({ id: '1481854785162784769', label: "luisprata5", level: 21, group: "command" });
 nodes.push({ id: '1482133487163432970', label: "WforDeathloop", level: 43, group: "command" });
 nodes.push({ id: '1482159124976594945', label: "HattabiMario", level: 1, group: "command" });
+nodes.push({ id: '1482450256965079042', label: "dhfinfkod", level: 29, group: "command" });
+nodes.push({ id: '1482454120602783747', label: "strunzepatt", level: 29, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -32390,4 +32394,8 @@ edges.push({ from: '1482133487163432970', to: '1450334475288727552' });
 edges.push({ from: '1482133621741965312', to: '1482133487163432970' });
 edges.push({ from: '1482159124976594945', to: '1444355917160534024' });
 edges.push({ from: '1482159199727595520', to: '1482159124976594945' });
+edges.push({ from: '1482450256965079042', to: '1445839902130769921' });
+edges.push({ from: '1482450357540302851', to: '1482450256965079042' });
+edges.push({ from: '1482454120602783747', to: '1445839902130769921' });
+edges.push({ from: '1482454215607918600', to: '1482454120602783747' });
 }
