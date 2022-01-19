@@ -8104,6 +8104,7 @@ nodes.push({ id: '1482456210288877571', label: "tweet2doom", level: 44, group: "
 nodes.push({ id: '1482617671183130624', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1482802415933997059', label: "tweet2doom", level: 78, group: "node" });
 nodes.push({ id: '1482802566694060032', label: "tweet2doom", level: 78, group: "node" });
+nodes.push({ id: '1483891013856935937', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16207,6 +16208,7 @@ nodes.push({ id: '1482456078478725121', label: "strunzepatt", level: 43, group: 
 nodes.push({ id: '1482617585518530560', label: "Leoviathann", level: 1, group: "command" });
 nodes.push({ id: '1482802296903938058', label: "TvBuraczek", level: 77, group: "command" });
 nodes.push({ id: '1482802388427759620', label: "TvBuraczek", level: 77, group: "command" });
+nodes.push({ id: '1483890874148868099', label: "sixneynfuana", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -32414,4 +32416,6 @@ edges.push({ from: '1482802296903938058', to: '1449902259337314308' });
 edges.push({ from: '1482802415933997059', to: '1482802296903938058' });
 edges.push({ from: '1482802388427759620', to: '1449902259337314308' });
 edges.push({ from: '1482802566694060032', to: '1482802388427759620' });
+edges.push({ from: '1483890874148868099', to: '1444355917160534024' });
+edges.push({ from: '1483891013856935937', to: '1483890874148868099' });
 }
