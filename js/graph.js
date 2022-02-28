@@ -8278,6 +8278,7 @@ nodes.push({ id: '1498221588352847872', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1498232185249308679', label: "tweet2doom", level: 36, group: "node" });
 nodes.push({ id: '1498233821787000832', label: "tweet2doom", level: 38, group: "node" });
 nodes.push({ id: '1498234700497829893', label: "tweet2doom", level: 40, group: "node" });
+nodes.push({ id: '1498239326177615874', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16555,6 +16556,7 @@ nodes.push({ id: '1498221458266333187', label: "rindufebryan_", level: 1, group:
 nodes.push({ id: '1498232000146296834', label: "idiotbubblehead", level: 35, group: "command" });
 nodes.push({ id: '1498233636310904841', label: "idiotbubblehead", level: 37, group: "command" });
 nodes.push({ id: '1498234504737361923', label: "idiotbubblehead", level: 39, group: "command" });
+nodes.push({ id: '1498239210016636928', label: "Defarhn", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33110,4 +33112,6 @@ edges.push({ from: '1498233636310904841', to: '1498232185249308679' });
 edges.push({ from: '1498233821787000832', to: '1498233636310904841' });
 edges.push({ from: '1498234504737361923', to: '1498233821787000832' });
 edges.push({ from: '1498234700497829893', to: '1498234504737361923' });
+edges.push({ from: '1498239210016636928', to: '1444355917160534024' });
+edges.push({ from: '1498239326177615874', to: '1498239210016636928' });
 }
