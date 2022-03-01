@@ -8284,6 +8284,8 @@ nodes.push({ id: '1498283547148304391', label: "tweet2doom", level: 62, group: "
 nodes.push({ id: '1498293401669844993', label: "tweet2doom", level: 606, group: "node" });
 nodes.push({ id: '1498490137872941062', label: "tweet2doom", level: 110, group: "node" });
 nodes.push({ id: '1498490293825548297', label: "tweet2doom", level: 110, group: "node" });
+nodes.push({ id: '1498512588329697282', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1498514917695098882', label: "tweet2doom", level: 110, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16567,6 +16569,8 @@ nodes.push({ id: '1498283367288418312', label: "Xghozzy1", level: 61, group: "co
 nodes.push({ id: '1498293199932067841', label: "starship7777", level: 605, group: "command" });
 nodes.push({ id: '1498489935912792065', label: "raza_teuku", level: 109, group: "command" });
 nodes.push({ id: '1498490031761080320', label: "raza_teuku", level: 109, group: "command" });
+nodes.push({ id: '1498512492347097091', label: "WildF20", level: 1, group: "command" });
+nodes.push({ id: '1498514732868722689', label: "marbotneraka666", level: 109, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33134,4 +33138,8 @@ edges.push({ from: '1498489935912792065', to: '1467560919010054156' });
 edges.push({ from: '1498490137872941062', to: '1498489935912792065' });
 edges.push({ from: '1498490031761080320', to: '1467560919010054156' });
 edges.push({ from: '1498490293825548297', to: '1498490031761080320' });
+edges.push({ from: '1498512492347097091', to: '1444355917160534024' });
+edges.push({ from: '1498512588329697282', to: '1498512492347097091' });
+edges.push({ from: '1498514732868722689', to: '1467560919010054156' });
+edges.push({ from: '1498514917695098882', to: '1498514732868722689' });
 }
