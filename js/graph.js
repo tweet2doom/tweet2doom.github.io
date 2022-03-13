@@ -8295,6 +8295,7 @@ nodes.push({ id: '1500539216014594052', label: "tweet2doom", level: 68, group: "
 nodes.push({ id: '1500969652171816966', label: "tweet2doom", level: 332, group: "node" });
 nodes.push({ id: '1501984698045808647', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1502345480973467652', label: "tweet2doom", level: 112, group: "node" });
+nodes.push({ id: '1503081557392871433', label: "tweet2doom", level: 116, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16589,6 +16590,7 @@ nodes.push({ id: '1500539040864608264', label: "MaxRay96045799", level: 67, grou
 nodes.push({ id: '1500969447703527425', label: "Mnwhll", level: 331, group: "command" });
 nodes.push({ id: '1501984561395294211', label: "nkfr66", level: 1, group: "command" });
 nodes.push({ id: '1502345276576747526', label: "XJansho", level: 111, group: "command" });
+nodes.push({ id: '1503081333844848648', label: "Electro96641500", level: 115, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33178,4 +33180,6 @@ edges.push({ from: '1501984561395294211', to: '1444355917160534024' });
 edges.push({ from: '1501984698045808647', to: '1501984561395294211' });
 edges.push({ from: '1502345276576747526', to: '1449825442085621763' });
 edges.push({ from: '1502345480973467652', to: '1502345276576747526' });
+edges.push({ from: '1503081333844848648', to: '1449829929487581188' });
+edges.push({ from: '1503081557392871433', to: '1503081333844848648' });
 }
