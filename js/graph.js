@@ -8307,6 +8307,7 @@ nodes.push({ id: '1505684715738742791', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1505688150760435712', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1506164783204216832', label: "tweet2doom", level: 32, group: "node" });
 nodes.push({ id: '1507231531953180672', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1507264051457540114', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16613,6 +16614,7 @@ nodes.push({ id: '1505684522217652224', label: "marcoitsintheg1", level: 1, grou
 nodes.push({ id: '1505688028911583234', label: "Bob123789456", level: 1, group: "command" });
 nodes.push({ id: '1506164611703197699', label: "Guardbuddy_Bot", level: 31, group: "command" });
 nodes.push({ id: '1507231444510277635', label: "ButtonsBTFO", level: 1, group: "command" });
+nodes.push({ id: '1507263920947580932', label: "Edwin_stuff", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33226,4 +33228,6 @@ edges.push({ from: '1506164611703197699', to: '1451989230201315328' });
 edges.push({ from: '1506164783204216832', to: '1506164611703197699' });
 edges.push({ from: '1507231444510277635', to: '1444355917160534024' });
 edges.push({ from: '1507231531953180672', to: '1507231444510277635' });
+edges.push({ from: '1507263920947580932', to: '1444355917160534024' });
+edges.push({ from: '1507264051457540114', to: '1507263920947580932' });
 }
