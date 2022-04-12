@@ -8317,6 +8317,10 @@ nodes.push({ id: '1511396778721136648', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1511953893080678400', label: "tweet2doom", level: 188, group: "node" });
 nodes.push({ id: '1511959500345028609', label: "tweet2doom", level: 796, group: "node" });
 nodes.push({ id: '1513121143426854918', label: "tweet2doom", level: 770, group: "node" });
+nodes.push({ id: '1513839735302770691', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1513840520317083651', label: "tweet2doom", level: 4, group: "node" });
+nodes.push({ id: '1513841103702790151', label: "tweet2doom", level: 4, group: "node" });
+nodes.push({ id: '1513841531848908800', label: "tweet2doom", level: 4, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16633,6 +16637,10 @@ nodes.push({ id: '1511396662954102786', label: "Sulta9000", level: 1, group: "co
 nodes.push({ id: '1511953700503363584', label: "devtesting_gg_0", level: 187, group: "command" });
 nodes.push({ id: '1511959321382617090', label: "curioman2", level: 795, group: "command" });
 nodes.push({ id: '1513120936328847361', label: "supisNOTfunny", level: 769, group: "command" });
+nodes.push({ id: '1513839642327535626', label: "KorpinenSaku", level: 1, group: "command" });
+nodes.push({ id: '1513840407704219650', label: "KorpinenSaku", level: 3, group: "command" });
+nodes.push({ id: '1513840981497589762', label: "KorpinenSaku", level: 3, group: "command" });
+nodes.push({ id: '1513841423010910212', label: "KorpinenSaku", level: 3, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33266,4 +33274,12 @@ edges.push({ from: '1511959321382617090', to: '1456383799240151051' });
 edges.push({ from: '1511959500345028609', to: '1511959321382617090' });
 edges.push({ from: '1513120936328847361', to: '1451131798235369474' });
 edges.push({ from: '1513121143426854918', to: '1513120936328847361' });
+edges.push({ from: '1513839642327535626', to: '1444355917160534024' });
+edges.push({ from: '1513839735302770691', to: '1513839642327535626' });
+edges.push({ from: '1513840407704219650', to: '1513839735302770691' });
+edges.push({ from: '1513840520317083651', to: '1513840407704219650' });
+edges.push({ from: '1513840981497589762', to: '1513839735302770691' });
+edges.push({ from: '1513841103702790151', to: '1513840981497589762' });
+edges.push({ from: '1513841423010910212', to: '1513839735302770691' });
+edges.push({ from: '1513841531848908800', to: '1513841423010910212' });
 }
