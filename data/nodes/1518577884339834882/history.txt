@@ -1,0 +1,8 @@
+,#@KorpinenSaku#x,,e,,e,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,#@KorpinenSaku#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>
+,#@KorpinenSaku#su>,su>,su>,su>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur,sur
+,#@KorpinenSaku#su,su,su,su,su,sur>,sur>,sur>,sur>,sur>,p,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su>,su,su,su,su,su
+,#@KorpinenSaku#su>,su>,su>,su>,su>,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@KorpinenSaku#su<,su<,su<,su<,su<,su,su,su,su,su,su,su,su,su,su,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<,sur<
+,#@KorpinenSaku#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@KorpinenSaku#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su>,su>,su>,su>,su>
