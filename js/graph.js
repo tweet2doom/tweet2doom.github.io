@@ -8427,6 +8427,7 @@ nodes.push({ id: '1525092470693974019', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1525111917047586816', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1525452953846423553', label: "tweet2doom", level: 100, group: "node" });
 nodes.push({ id: '1525945110671785985', label: "tweet2doom", level: 800, group: "node" });
+nodes.push({ id: '1527820674806472705', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16853,6 +16854,7 @@ nodes.push({ id: '1525092379195232257', label: "Lamandryta", level: 1, group: "c
 nodes.push({ id: '1525111794351603714', label: "69sexyme69", level: 1, group: "command" });
 nodes.push({ id: '1525452743976095747', label: "WiktorLis420", level: 99, group: "command" });
 nodes.push({ id: '1525944917800980481', label: "ggerganov", level: 799, group: "command" });
+nodes.push({ id: '1527820485144285185', label: "Davemadrid2003", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33706,4 +33708,6 @@ edges.push({ from: '1525452743976095747', to: '1449282924977827843' });
 edges.push({ from: '1525452953846423553', to: '1525452743976095747' });
 edges.push({ from: '1525944917800980481', to: '1497547951417303044' });
 edges.push({ from: '1525945110671785985', to: '1525944917800980481' });
+edges.push({ from: '1527820485144285185', to: '1444355917160534024' });
+edges.push({ from: '1527820674806472705', to: '1527820485144285185' });
 }
