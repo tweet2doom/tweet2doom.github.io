@@ -8498,6 +8498,7 @@ nodes.push({ id: '1534519787967356928', label: "tweet2doom", level: 54, group: "
 nodes.push({ id: '1534522597681025025', label: "tweet2doom", level: 54, group: "node" });
 nodes.push({ id: '1534523302445830145', label: "tweet2doom", level: 54, group: "node" });
 nodes.push({ id: '1534524007353139202', label: "tweet2doom", level: 54, group: "node" });
+nodes.push({ id: '1534625719652859905', label: "tweet2doom", level: 30, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16995,6 +16996,7 @@ nodes.push({ id: '1534519600863498240', label: "Uckerel1", level: 53, group: "co
 nodes.push({ id: '1534522402490687488', label: "Uckerel1", level: 53, group: "command" });
 nodes.push({ id: '1534523107289010176', label: "Uckerel1", level: 53, group: "command" });
 nodes.push({ id: '1534523818592686081', label: "Uckerel1", level: 53, group: "command" });
+nodes.push({ id: '1534625541785010176', label: "Skoorbals", level: 29, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33990,4 +33992,6 @@ edges.push({ from: '1534523107289010176', to: '1450919981617721357' });
 edges.push({ from: '1534523302445830145', to: '1534523107289010176' });
 edges.push({ from: '1534523818592686081', to: '1450919981617721357' });
 edges.push({ from: '1534524007353139202', to: '1534523818592686081' });
+edges.push({ from: '1534625541785010176', to: '1445839902130769921' });
+edges.push({ from: '1534625719652859905', to: '1534625541785010176' });
 }
