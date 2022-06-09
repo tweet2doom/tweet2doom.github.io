@@ -8500,6 +8500,7 @@ nodes.push({ id: '1534523302445830145', label: "tweet2doom", level: 54, group: "
 nodes.push({ id: '1534524007353139202', label: "tweet2doom", level: 54, group: "node" });
 nodes.push({ id: '1534625719652859905', label: "tweet2doom", level: 30, group: "node" });
 nodes.push({ id: '1534767501233504256', label: "tweet2doom", level: 162, group: "node" });
+nodes.push({ id: '1534769214434721793', label: "tweet2doom", level: 162, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -16999,6 +17000,7 @@ nodes.push({ id: '1534523107289010176', label: "Uckerel1", level: 53, group: "co
 nodes.push({ id: '1534523818592686081', label: "Uckerel1", level: 53, group: "command" });
 nodes.push({ id: '1534625541785010176', label: "Skoorbals", level: 29, group: "command" });
 nodes.push({ id: '1534767319687127040', label: "lad_short", level: 161, group: "command" });
+nodes.push({ id: '1534769035581149184', label: "lad_short", level: 161, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -33998,4 +34000,6 @@ edges.push({ from: '1534625541785010176', to: '1445839902130769921' });
 edges.push({ from: '1534625719652859905', to: '1534625541785010176' });
 edges.push({ from: '1534767319687127040', to: '1467595565441638401' });
 edges.push({ from: '1534767501233504256', to: '1534767319687127040' });
+edges.push({ from: '1534769035581149184', to: '1467595565441638401' });
+edges.push({ from: '1534769214434721793', to: '1534769035581149184' });
 }
