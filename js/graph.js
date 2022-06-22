@@ -8551,6 +8551,7 @@ nodes.push({ id: '1539376762337267712', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1539463614721142787', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1539474077676670977', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1539565612179116035', label: "tweet2doom", level: 110, group: "node" });
+nodes.push({ id: '1539672815112159233', label: "tweet2doom", level: 44, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17101,6 +17102,7 @@ nodes.push({ id: '1539376634389831680', label: "SpardaOfficial", level: 1, group
 nodes.push({ id: '1539463510979379200', label: "Sir_Reynaldi", level: 1, group: "command" });
 nodes.push({ id: '1539473899842330625', label: "Necroticart", level: 1, group: "command" });
 nodes.push({ id: '1539565445459726336', label: "gardkor", level: 109, group: "command" });
+nodes.push({ id: '1539672649705586701', label: "kraneowatt", level: 43, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -34202,4 +34204,6 @@ edges.push({ from: '1539473899842330625', to: '1444355917160534024' });
 edges.push({ from: '1539474077676670977', to: '1539473899842330625' });
 edges.push({ from: '1539565445459726336', to: '1451036523139305476' });
 edges.push({ from: '1539565612179116035', to: '1539565445459726336' });
+edges.push({ from: '1539672649705586701', to: '1450526045858316294' });
+edges.push({ from: '1539672815112159233', to: '1539672649705586701' });
 }
