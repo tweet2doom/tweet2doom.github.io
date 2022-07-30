@@ -8785,6 +8785,7 @@ nodes.push({ id: '1553208174563528705', label: "tweet2doom", level: 42, group: "
 nodes.push({ id: '1553209024480436225', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1553209234845827072', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1553214196665487361', label: "tweet2doom", level: 42, group: "node" });
+nodes.push({ id: '1553227898160545792', label: "tweet2doom", level: 42, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17569,6 +17570,7 @@ nodes.push({ id: '1553207997756751872', label: "Traver00136790", level: 41, grou
 nodes.push({ id: '1553208950161563649', label: "TheMapacheUwU", level: 1, group: "command" });
 nodes.push({ id: '1553209137084899329', label: "TheMapacheUwU", level: 1, group: "command" });
 nodes.push({ id: '1553214017975582721', label: "AlterDumer", level: 41, group: "command" });
+nodes.push({ id: '1553227721416749057', label: "ThatMyke", level: 41, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35138,4 +35140,6 @@ edges.push({ from: '1553209137084899329', to: '1444355917160534024' });
 edges.push({ from: '1553209234845827072', to: '1553209137084899329' });
 edges.push({ from: '1553214017975582721', to: '1451926784241455104' });
 edges.push({ from: '1553214196665487361', to: '1553214017975582721' });
+edges.push({ from: '1553227721416749057', to: '1451926784241455104' });
+edges.push({ from: '1553227898160545792', to: '1553227721416749057' });
 }
