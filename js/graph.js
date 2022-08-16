@@ -8862,6 +8862,7 @@ nodes.push({ id: '1559354969781944323', label: "tweet2doom", level: 30, group: "
 nodes.push({ id: '1559557874203910148', label: "tweet2doom", level: 6, group: "node" });
 nodes.push({ id: '1559596176269348864', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1559596501705412609', label: "tweet2doom", level: 30, group: "node" });
+nodes.push({ id: '1559668177558200322', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17723,6 +17724,7 @@ nodes.push({ id: '1559354789573566464', label: "AzazelTheThird", level: 29, grou
 nodes.push({ id: '1559557531126665217', label: "Patopzz", level: 5, group: "command" });
 nodes.push({ id: '1559596076524519427', label: "BreinerGamero", level: 1, group: "command" });
 nodes.push({ id: '1559596321480359937', label: "BreinerGamero", level: 29, group: "command" });
+nodes.push({ id: '1559668075590430720', label: "licderaadc", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35446,4 +35448,6 @@ edges.push({ from: '1559596076524519427', to: '1444355917160534024' });
 edges.push({ from: '1559596176269348864', to: '1559596076524519427' });
 edges.push({ from: '1559596321480359937', to: '1450136879848902656' });
 edges.push({ from: '1559596501705412609', to: '1559596321480359937' });
+edges.push({ from: '1559668075590430720', to: '1444355917160534024' });
+edges.push({ from: '1559668177558200322', to: '1559668075590430720' });
 }
