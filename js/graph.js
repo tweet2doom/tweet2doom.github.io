@@ -8880,6 +8880,7 @@ nodes.push({ id: '1565326809549492225', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1565885392678690817', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1566144718609813505', label: "tweet2doom", level: 44, group: "node" });
 nodes.push({ id: '1566273800118968321', label: "tweet2doom", level: 44, group: "node" });
+nodes.push({ id: '1566487085896327169', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17759,6 +17760,7 @@ nodes.push({ id: '1565326639210299392', label: "SynthNoraa", level: 1, group: "c
 nodes.push({ id: '1565885320578576385', label: "SrangeX", level: 1, group: "command" });
 nodes.push({ id: '1566144546316091392', label: "coder436", level: 43, group: "command" });
 nodes.push({ id: '1566273645806239745', label: "Pelushin717", level: 43, group: "command" });
+nodes.push({ id: '1566487004409278464', label: "SrangeX", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35518,4 +35520,6 @@ edges.push({ from: '1566144546316091392', to: '1450526045858316294' });
 edges.push({ from: '1566144718609813505', to: '1566144546316091392' });
 edges.push({ from: '1566273645806239745', to: '1450526045858316294' });
 edges.push({ from: '1566273800118968321', to: '1566273645806239745' });
+edges.push({ from: '1566487004409278464', to: '1444355917160534024' });
+edges.push({ from: '1566487085896327169', to: '1566487004409278464' });
 }
