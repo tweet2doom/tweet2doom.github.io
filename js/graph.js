@@ -8914,6 +8914,7 @@ nodes.push({ id: '1571055887162216448', label: "tweet2doom", level: 10, group: "
 nodes.push({ id: '1571557305295962113', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1571973853085057024', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1571974001865494528', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1572616532773179394', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17827,6 +17828,7 @@ nodes.push({ id: '1571055793474269186', label: "hhbhlhlhlman", level: 9, group: 
 nodes.push({ id: '1571557210928611328', label: "jechucampossxd", level: 1, group: "command" });
 nodes.push({ id: '1571973675947261952', label: "wadaw2453", level: 1, group: "command" });
 nodes.push({ id: '1571973740736684033', label: "wadaw2453", level: 1, group: "command" });
+nodes.push({ id: '1572616433691168768', label: "RandomFandomYT", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35654,4 +35656,6 @@ edges.push({ from: '1571973675947261952', to: '1444355917160534024' });
 edges.push({ from: '1571973853085057024', to: '1571973675947261952' });
 edges.push({ from: '1571973740736684033', to: '1444355917160534024' });
 edges.push({ from: '1571974001865494528', to: '1571973740736684033' });
+edges.push({ from: '1572616433691168768', to: '1444355917160534024' });
+edges.push({ from: '1572616532773179394', to: '1572616433691168768' });
 }
