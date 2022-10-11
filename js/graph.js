@@ -8927,6 +8927,7 @@ nodes.push({ id: '1578078087580893184', label: "tweet2doom", level: 2, group: "n
 nodes.push({ id: '1578600498277621766', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1578788808803221504', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1578789343732191232', label: "tweet2doom", level: 258, group: "node" });
+nodes.push({ id: '1579825423571357696', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17853,6 +17854,7 @@ nodes.push({ id: '1578078017032699909', label: "moriceltarra", level: 1, group: 
 nodes.push({ id: '1578600404509921281', label: "EMinakoto", level: 1, group: "command" });
 nodes.push({ id: '1578788708815638529', label: "RealNihit", level: 1, group: "command" });
 nodes.push({ id: '1578789176413421569', label: "RealNihit", level: 257, group: "command" });
+nodes.push({ id: '1579825351462891523', label: "LordGringus", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35706,4 +35708,6 @@ edges.push({ from: '1578788708815638529', to: '1444355917160534024' });
 edges.push({ from: '1578788808803221504', to: '1578788708815638529' });
 edges.push({ from: '1578789176413421569', to: '1450014343798665223' });
 edges.push({ from: '1578789343732191232', to: '1578789176413421569' });
+edges.push({ from: '1579825351462891523', to: '1444355917160534024' });
+edges.push({ from: '1579825423571357696', to: '1579825351462891523' });
 }
