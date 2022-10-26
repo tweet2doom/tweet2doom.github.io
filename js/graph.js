@@ -8962,6 +8962,7 @@ nodes.push({ id: '1583437411690110985', label: "tweet2doom", level: 14, group: "
 nodes.push({ id: '1584589264473530370', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1585056982465220608', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1585164970630807553', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1585225040685109248', label: "tweet2doom", level: 4, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17923,6 +17924,7 @@ nodes.push({ id: '1583437227501424640', label: "ElDallasvgytech", level: 13, gro
 nodes.push({ id: '1584589145816858624', label: "Velaskokeo", level: 1, group: "command" });
 nodes.push({ id: '1585056849120088069', label: "xamak23", level: 1, group: "command" });
 nodes.push({ id: '1585164858261004288', label: "FatherRikuru", level: 1, group: "command" });
+nodes.push({ id: '1585224877681745922', label: "FatherRikuru", level: 3, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35846,4 +35848,6 @@ edges.push({ from: '1585056849120088069', to: '1444355917160534024' });
 edges.push({ from: '1585056982465220608', to: '1585056849120088069' });
 edges.push({ from: '1585164858261004288', to: '1444355917160534024' });
 edges.push({ from: '1585164970630807553', to: '1585164858261004288' });
+edges.push({ from: '1585224877681745922', to: '1585164970630807553' });
+edges.push({ from: '1585225040685109248', to: '1585224877681745922' });
 }
