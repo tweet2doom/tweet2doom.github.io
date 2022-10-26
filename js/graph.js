@@ -8960,6 +8960,7 @@ nodes.push({ id: '1583176824242462720', label: "tweet2doom", level: 14, group: "
 nodes.push({ id: '1583249326897123329', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1583437411690110985', label: "tweet2doom", level: 14, group: "node" });
 nodes.push({ id: '1584589264473530370', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1585056982465220608', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17919,6 +17920,7 @@ nodes.push({ id: '1583176640871342080', label: "Xurkey", level: 13, group: "comm
 nodes.push({ id: '1583249241212063744', label: "pab38260890", level: 1, group: "command" });
 nodes.push({ id: '1583437227501424640', label: "ElDallasvgytech", level: 13, group: "command" });
 nodes.push({ id: '1584589145816858624', label: "Velaskokeo", level: 1, group: "command" });
+nodes.push({ id: '1585056849120088069', label: "xamak23", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35838,4 +35840,6 @@ edges.push({ from: '1583437227501424640', to: '1449813255397036033' });
 edges.push({ from: '1583437411690110985', to: '1583437227501424640' });
 edges.push({ from: '1584589145816858624', to: '1444355917160534024' });
 edges.push({ from: '1584589264473530370', to: '1584589145816858624' });
+edges.push({ from: '1585056849120088069', to: '1444355917160534024' });
+edges.push({ from: '1585056982465220608', to: '1585056849120088069' });
 }
