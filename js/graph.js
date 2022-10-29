@@ -8970,6 +8970,7 @@ nodes.push({ id: '1585285170709643264', label: "tweet2doom", level: 8, group: "n
 nodes.push({ id: '1585327636909260800', label: "tweet2doom", level: 156, group: "node" });
 nodes.push({ id: '1585911717980160002', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1586206342515232768', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1586234051081428994', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17939,6 +17940,7 @@ nodes.push({ id: '1585285007731576832', label: "Exdetransition1", level: 7, grou
 nodes.push({ id: '1585327437579452416', label: "Pablogamer_054", level: 155, group: "command" });
 nodes.push({ id: '1585911589999452160', label: "OctobreAugustin", level: 1, group: "command" });
 nodes.push({ id: '1586206146016079872', label: "lucrebem", level: 1, group: "command" });
+nodes.push({ id: '1586233952024788993', label: "lucrebem", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35878,4 +35880,6 @@ edges.push({ from: '1585911589999452160', to: '1444355917160534024' });
 edges.push({ from: '1585911717980160002', to: '1585911589999452160' });
 edges.push({ from: '1586206146016079872', to: '1444355917160534024' });
 edges.push({ from: '1586206342515232768', to: '1586206146016079872' });
+edges.push({ from: '1586233952024788993', to: '1444355917160534024' });
+edges.push({ from: '1586234051081428994', to: '1586233952024788993' });
 }
