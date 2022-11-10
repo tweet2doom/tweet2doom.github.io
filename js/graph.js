@@ -8991,6 +8991,7 @@ nodes.push({ id: '1589967111509753858', label: "tweet2doom", level: 690, group: 
 nodes.push({ id: '1590359973682642945', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1590360178326544385', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1590411917507514368', label: "tweet2doom", level: 8, group: "node" });
+nodes.push({ id: '1590839904983973894', label: "tweet2doom", level: 8, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -17981,6 +17982,7 @@ nodes.push({ id: '1589966912985133056', label: "Douma770", level: 689, group: "c
 nodes.push({ id: '1590359769608777728', label: "CohenGogo", level: 1, group: "command" });
 nodes.push({ id: '1590360109397741569', label: "CohenGogo", level: 1, group: "command" });
 nodes.push({ id: '1590411730483818496', label: "THEZACHKELLEY", level: 7, group: "command" });
+nodes.push({ id: '1590839727015747586', label: "666lucjan666", level: 7, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -35962,4 +35964,6 @@ edges.push({ from: '1590360109397741569', to: '1444355917160534024' });
 edges.push({ from: '1590360178326544385', to: '1590360109397741569' });
 edges.push({ from: '1590411730483818496', to: '1547260969851699201' });
 edges.push({ from: '1590411917507514368', to: '1590411730483818496' });
+edges.push({ from: '1590839727015747586', to: '1547260969851699201' });
+edges.push({ from: '1590839904983973894', to: '1590839727015747586' });
 }
