@@ -9057,6 +9057,7 @@ nodes.push({ id: '1612380260107968512', label: "tweet2doom", level: 72, group: "
 nodes.push({ id: '1612380692582727687', label: "tweet2doom", level: 74, group: "node" });
 nodes.push({ id: '1612381167994429446', label: "tweet2doom", level: 76, group: "node" });
 nodes.push({ id: '1612399697766793219', label: "tweet2doom", level: 70, group: "node" });
+nodes.push({ id: '1612480115966894082', label: "tweet2doom", level: 70, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -18113,6 +18114,7 @@ nodes.push({ id: '1612380079186915334', label: "El_MikeSeLaSabe", level: 71, gro
 nodes.push({ id: '1612380527776133121', label: "El_MikeSeLaSabe", level: 73, group: "command" });
 nodes.push({ id: '1612381025484644352', label: "El_MikeSeLaSabe", level: 75, group: "command" });
 nodes.push({ id: '1612399507932684288', label: "Parallas10", level: 69, group: "command" });
+nodes.push({ id: '1612479923440033792', label: "6BrandonLozano", level: 69, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -36226,4 +36228,6 @@ edges.push({ from: '1612381025484644352', to: '1612380692582727687' });
 edges.push({ from: '1612381167994429446', to: '1612381025484644352' });
 edges.push({ from: '1612399507932684288', to: '1446547363338784769' });
 edges.push({ from: '1612399697766793219', to: '1612399507932684288' });
+edges.push({ from: '1612479923440033792', to: '1446547363338784769' });
+edges.push({ from: '1612480115966894082', to: '1612479923440033792' });
 }
