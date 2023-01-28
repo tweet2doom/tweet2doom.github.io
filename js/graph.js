@@ -9131,6 +9131,7 @@ nodes.push({ id: '1619023387220742159', label: "tweet2doom", level: 136, group: 
 nodes.push({ id: '1619025104029061167', label: "tweet2doom", level: 40, group: "node" });
 nodes.push({ id: '1619227486058848257', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1619268833990119424', label: "tweet2doom", level: 258, group: "node" });
+nodes.push({ id: '1619404739107590145', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
 nodes.push({ id: '1444359352073216003', label: "ggerganov", level: 3, group: "command" });
@@ -18261,6 +18262,7 @@ nodes.push({ id: '1619023176318746625', label: "j_p_davila", level: 135, group: 
 nodes.push({ id: '1619024906775326720', label: "j_p_davila", level: 39, group: "command" });
 nodes.push({ id: '1619227375686012929', label: "Buonanotte89", level: 1, group: "command" });
 nodes.push({ id: '1619268647394091009', label: "AlexMad01633137", level: 257, group: "command" });
+nodes.push({ id: '1619404622107676672', label: "alfaAloneH", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -36522,4 +36524,6 @@ edges.push({ from: '1619227375686012929', to: '1444355917160534024' });
 edges.push({ from: '1619227486058848257', to: '1619227375686012929' });
 edges.push({ from: '1619268647394091009', to: '1456220085933285385' });
 edges.push({ from: '1619268833990119424', to: '1619268647394091009' });
+edges.push({ from: '1619404622107676672', to: '1444355917160534024' });
+edges.push({ from: '1619404739107590145', to: '1619404622107676672' });
 }
