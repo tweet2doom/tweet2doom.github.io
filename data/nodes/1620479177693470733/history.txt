@@ -1,0 +1,11 @@
+,#@Facu9669#x,,e,,e,,e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f
+,#@Facu9669#slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,slf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf,srf
+,#@Facu9669#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,f
+,#@Facu9669#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@Facu9669#l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l
+,#@Facu9669#u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,r,r,r,r,r,r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@Facu9669#r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+,#@Facu9669#d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d
+,#@Facu9669#su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su,su
+,#@Facu9669#sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+,#@Facu9669#,,,,,,,,,,,,,,,,,,,,r,r,r,r,r,r,r,r
