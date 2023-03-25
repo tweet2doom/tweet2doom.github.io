@@ -9264,6 +9264,7 @@ nodes.push({ id: '1639131175565557761', label: "tweet2doom", level: 258, group: 
 nodes.push({ id: '1639263527075561474', label: "tweet2doom", level: 386, group: "node" });
 nodes.push({ id: '1639263809243078656', label: "tweet2doom", level: 386, group: "node" });
 nodes.push({ id: '1639367611472572416', label: "tweet2doom", level: 2, group: "node" });
+nodes.push({ id: '1639652678317019136', label: "tweet2doom", level: 2, group: "node" });
 nodes.push({ id: 'node_new', label: "tweet2doom", level: 32, group: "node" });
 nodes.push({ id: '1444358348955164684', label: "tweet2doom_info", level: 1, group: "command" });
 nodes.push({ id: '1444359046136479752', label: "ggerganov", level: 1, group: "command" });
@@ -18534,6 +18535,7 @@ nodes.push({ id: '1639130993075560449', label: "esotilinvolador", level: 257, gr
 nodes.push({ id: '1639263340240293888', label: "GeorepOficial", level: 385, group: "command" });
 nodes.push({ id: '1639263613260124160', label: "GeorepOficial", level: 385, group: "command" });
 nodes.push({ id: '1639367518002331651', label: "Perriphery", level: 1, group: "command" });
+nodes.push({ id: '1639652595328335873', label: "bukimaster22", level: 1, group: "command" });
 
 edges.push({ from: '1444358348955164684', to: '1444355917160534024' });
 edges.push({ from: '1444358418337239043', to: '1444358348955164684' });
@@ -37073,4 +37075,6 @@ edges.push({ from: '1639263613260124160', to: '1450192306208972805' });
 edges.push({ from: '1639263809243078656', to: '1639263613260124160' });
 edges.push({ from: '1639367518002331651', to: '1444355917160534024' });
 edges.push({ from: '1639367611472572416', to: '1639367518002331651' });
+edges.push({ from: '1639652595328335873', to: '1444355917160534024' });
+edges.push({ from: '1639652678317019136', to: '1639652595328335873' });
 }
